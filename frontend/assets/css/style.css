@@ -1,0 +1,46 @@
+html,
+body {
+  font-size: 62.5%;
+  background: #337796;
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+input {
+  padding: 0.5rem;
+  width: 100%;
+  height: auto;
+}
+button,
+.btn {
+  width: 100%;
+  height: auto;
+  font-size: 2ch;
+  font-weight: 500;
+}
+table {
+  width: 100%;
+}
+
+.container {
+  height: auto;
+  width: 70vh;
+  padding: 2em;
+  display: grid;
+  justify-content: center;
+  box-shadow: 10px 10px 10px rgb(48, 47, 47);
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  border-radius: 1em;
+  background: #ffffff;
+}
+
+.form-group {
+  justify-content: space-between;
+  display: grid;
+}
+.form-group > * {
+  margin-top: 1ch;
+}
